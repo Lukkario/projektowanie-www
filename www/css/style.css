@@ -71,6 +71,7 @@ html, body {
     padding-top: 5%;
     padding-left: 1%;
     padding-right: 1%;
+    padding-bottom: 1%;
     /*object-fit: cover;*/
     overflow: hidden;
 }
@@ -129,11 +130,11 @@ html, body {
     margin-left: 5%;
     margin-right: 10%;
     margin-top: 4%;
-    margin-bottom: 2%;
+    bottom: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 #stopka1{
@@ -141,7 +142,7 @@ html, body {
     height: 60px;
     background-color: #333;
     clear: both;
-    position: fixed;
+    position: absolute;
     bottom: 130px;
     z-index: 1;
 }
@@ -164,7 +165,7 @@ html, body {
     min-height: 130px;
     background-color: #1c1c1c;
     clear: both;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     z-index: 1;
 }
@@ -187,21 +188,6 @@ html, body {
     clear: both;
 }
 
-#tarcze{
-    padding-top: 5%;
-    padding-left: 2%;
-    min-height: 50px;
-    min-width: 50px;
-    max-height: 100px;
-    max-width: 100px;
-}
-
-#miniaturka{
-    margin: auto;
-    max-height: 390px;
-    max-width: 390px;
-}
-
 #stopka-info{
     padding-top: 30px;
     padding-left: 30px;
@@ -211,17 +197,24 @@ html, body {
     vertical-align: baseline;
 }
 
-#tech{
-    padding-top: 10%;
-    color: white;
-    font-size: 19px;
-    vertical-align: baseline;
-}
-
 #tresc-naglowek{
   /*font-size: 20px;*/
   text-align: center;
 }
+
+.tresc-info{
+  /*font-size: 20px;*/
+  text-align: center;
+  color: black;
+}
+
+.tresc-info-2{
+  /*font-size: 20px;*/
+  text-align: left;
+  color: black;
+  padding-left: 2%;
+}
+
 
 ol{
     color: black;
